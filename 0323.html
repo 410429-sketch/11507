@@ -1,0 +1,57 @@
+<html>
+    <head>
+    <title>0323-css漸層</title>
+    <style>
+        div {
+            margin-bottom: 10px;
+            width: 400px;
+            height: 100px;
+        } 
+    #d1 {
+        height: 50px;
+        background:linear-gradient(red,black);
+    }
+         
+    
+    #d2 {
+        height: 50px;
+        background:linear-gradient(45deg,green,black);
+    }
+    #d3{
+        height: 100px;
+        background:radial-gradient(circle,green,white);
+    }
+           
+    @keyframes kd3 {
+        0% {background:radial-gradient(circle,green,white);}
+        50% {background:radial-gradient(circle,white,green);}
+        100% {background:radial-gradient(circle,green,white);} 
+    }
+
+
+        
+
+
+
+    </style>
+    </head>
+<body><div id="d1"></div>
+      <div id="d2"></div>
+      <div id="d3"></div>
+
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
