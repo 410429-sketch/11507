@@ -1,0 +1,46 @@
+<html>
+    <head><title>0420-Javascript輸入與輸出</title>
+        <!--HTML註解-->
+        <style>
+        
+        </style>
+
+       <script>
+         function sayhello(){
+          name=prompt("你叫什麼名字?")
+         console.log(name)
+         document.getElementById("msg").innerHTML="Hello "+ name
+         }
+         function cala(){
+          userAns=parseInt(prompt("你認為答案是多少?").value)
+          n1=parseInt(document.getElementById("n1").value)
+          n2=parseInt(document.getElementById("n2").value)
+          if(inNaN(n1)=0)
+          if(inNaN(n2)? 0 : n2)
+
+          document.getElementById("ans").value="答案是"+(n1+n2)
+         }
+    /*window函式:
+     alert(訊息)
+     答案=prompt("問答")
+         答案為(文字)string和(數字)null*/
+       </script>
+  </head>
+    <body>
+     <button onclick="sayhello()">打招呼</button>
+      
+     <div id="msg"></div>
+     <hr>
+     <input type="text" id="in1"><br>
+     <input type="password"><br>
+     <input type="number"><br>
+     <input type="date"><br>
+     <input type="datetime-local"><br>
+     <input type="color"><br>
+     <input type="color"><br>
+
+     <hr>
+     <input type="number" id="n1">+<input type="number" id ="n2">=<button onclick="cala()">?</button>
+     <input type="number" id="ans" disabled>
+    </body>
+</html>
